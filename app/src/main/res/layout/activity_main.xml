@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"/>
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_nama"
+            android:hint="Nama Lengkap"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Usia"/>
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_usia"
+            android:hint="Usia"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Domisili"/>
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:text=":"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtdomisili"
+            android:hint="domisili"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btn_insertdata"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampil Data"
+        android:id="@+id/btntampildata"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/btnUpdate"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:background="#a41a1a"
+        android:id="@+id/btnhapus"
+        android:visibility="gone"/>
+</LinearLayout>
